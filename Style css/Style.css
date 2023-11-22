@@ -12,10 +12,11 @@ html{
 }
 body{
     font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
 }
 
 h1{
-    font-size: 90px;
+    font-size: 40px;
     
 }
 
@@ -59,10 +60,12 @@ h1{
     align-items: center;
 }
 
+.full-page img{
+    width: 700px;
+}
 
 #shoe-differente{
   margin: 0 auto;
-
 }
 #shoe-tommyhilfiger{
     margin: 0 auto;
@@ -73,6 +76,7 @@ h1{
 
 
 .text-contenitore{
+    
 }
 
 /*MENU NAV*/
@@ -82,16 +86,15 @@ nav{
 }
 
 .menu{
-    
     position: fixed ;
     right: 50px;
-    top: 50px;
+    top: 20px;
     translate: 0 50%;
-
 }
 
 .menu ul{
     list-style-type: none;
+    gap: 5px;
 }
 
 
@@ -101,8 +104,7 @@ nav{
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
-    
-
+    /*contorno*/
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -110,7 +112,6 @@ nav{
 
     text-align: center;
     line-height: 40px;
-
-    margin: 10px 0;
+    
 }
 
