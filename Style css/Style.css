@@ -15,6 +15,15 @@ h1{
     font-size: 90px;
     text-align: center;
 }
+
+.text-color-yellow{
+    color: yellow;
+}
+.text-color-green{
+    color: green;
+}
+
+
 .bg-red{
     background-color: red;
 }
@@ -25,9 +34,11 @@ h1{
     background-color: yellow;
 }
 
+
 .flex{
     display: flex;
 }
+
 
 /*UTILS*/
 .container{
@@ -45,6 +56,7 @@ h1{
     border: 1px solid;
 }
 
+
 #shoe-differente{
   margin: 0 auto;
 
@@ -56,6 +68,42 @@ h1{
     margin: 0 auto;
 }
 
+
 .text-contenitore{
     width: 750px;
+}
+
+/*MENU NAV*/
+
+nav{
+
+}
+.menu{
+    width: 200px;
+    height: 70px;
+    border: 1px solid;
+    position: fixed ;
+
+}
+.menu a{
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.menu ul{
+    list-style: none;
+
 }
