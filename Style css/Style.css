@@ -1,4 +1,61 @@
+/*RESET*/
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*GENERICS*/
+body{
     font-family: 'Rubik Mono One', sans-serif;
+}
+
+h1{
+    font-size: 90px;
+    text-align: center;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+
+.flex{
+    display: flex;
+}
+
+/*UTILS*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+.full-page{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid;
+}
+
+#shoe-differente{
+  margin: 0 auto;
+
+}
+#shoe-tommyhilfiger{
+    margin: 0 auto;
+}
+#shoe-converse{
+    margin: 0 auto;
+}
+
+.text-contenitore{
+    width: 750px;
 }
